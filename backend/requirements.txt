@@ -1,0 +1,13 @@
+httpx==0.27.2
+fastapi==0.115.6
+uvicorn==0.34.0
+apscheduler==3.11.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# Trendyol (client-side render) ve Amazon TR (datacenter IP 503) icin.
+# Kurduktan sonra: python -m playwright install chromium
+playwright==1.49.1
+
+# TLS parmak izi taklidi -- Incehesap, n11 ve Hepsiburada bunsuz 403 veriyor.
+curl_cffi>=0.7.0
